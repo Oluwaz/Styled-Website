@@ -1,0 +1,200 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    background-image: url(images/img1.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.line{
+    background-color: rgb(214, 41, 70);
+    height: 3px;
+    width: 150px;
+    margin: 0px 80px;
+}
+.center{
+    text-align: center;
+}
+.center h2{
+    font-size: 3.5vmin;
+}
+.center h1{
+    margin-top: 30px;
+}
+.center .ctn{
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(214, 41, 70);
+    color: aliceblue;
+    width: 25%;
+    height: 25px;
+    margin: 20px 0px;
+    cursor: pointer;
+}
+/*The Nav Bar...................................................*/
+ul{
+   list-style: none; 
+}
+li{
+    text-decoration: none;
+    
+}
+.nav-bar{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.nav-links{
+    display: flex;  
+}
+.nav-links li{
+    margin: 10px 30px;
+}
+.logo{
+    margin: 0px 30px;
+    font-size: 6vmin;
+}
+/*title...............................*/
+.title{
+    width: 100%;
+}
+.title h1{
+    text-align: center;
+    font-size: 4vmin;
+    margin: 20px 0px;
+    width: 100%;
+}
+.title .line{
+    position: absolute;
+    left: 520px;
+    top: 750px;
+    background-color: black;
+    margin-top: 5px;
+}
+/*Page 2................*/
+.outer{
+    display: flex;
+    justify-content: center;
+    height: 80vh;
+}
+.inner1{
+    width: 50%;
+}
+.image2{
+    margin: 10px 0px;
+    width: 70%;
+    margin-left: 170px;
+}
+.write1{
+    position: absolute;
+    width: 35%;
+    height: 100px;
+    text-align: center;
+    top: 1170px;
+    left: 170px;
+}
+.inner2{
+    width: 50%;
+}
+.image3{
+    margin: 10px 25px;
+    width: 70%;
+}
+.write2{
+    position: absolute;
+    width: 35%;
+    height: 100px;
+    text-align: center;
+    top: 1170px;
+    left: 700px;
+}
+/*Writings CSS...............*/
+.outer h2{
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+.outer p{
+    text-align: left;
+    margin-bottom: 5px;
+}
+.outer .btn{
+    width: 90px;
+    height: 23px;
+    border-radius: 20px;
+    background-color: rgb(145, 137, 137);
+    border: none;
+    cursor: pointer;
+}
+/*Page 3.......................*/
+.out-image{
+    background-image: url(images/img4.jpg);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 95vh;
+    color: aliceblue;
+}
+.in-write{
+    position: absolute;
+    text-align: center;
+    width: 50%;
+    height: 30%;
+    margin-top: 190px;
+    margin-left: 70px;
+
+}
+.out-image h1{
+    margin-top: 30px;
+    font-size: 6vmin;
+}
+.out-image .line{
+    position: absolute;
+    left: 120px;
+    width: 40%;
+}
+.out-image p{
+    margin-top: 20px;
+    text-align: left;
+    font-size: 2.5vmin;
+}
+.out-image .btn{
+    width: 90px;
+    height: 23px;
+    border-radius: 20px;
+    background-color: rgb(145, 137, 137);
+    border: none;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
